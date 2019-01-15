@@ -1,0 +1,104 @@
+head {
+  img: center;
+  border-radius: 50%;
+}
+
+div {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 2px;
+  border: 10px dotted coral;
+}
+
+div2 {
+  border: solid 
+}
+
+div3 {
+  font: comic sans;
+  margin: 10px;
+  padding: 5px;
+}
+
+h1 { 
+  display: block;
+  font-size: 6em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #ec735e;
+  font-family: verdana;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #7051e4;
+}
+
+h3 { 
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #13572f
+}
+
+h4 { 
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #313da4
+}
+
+h5 { 
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h6 { 
+  display: block;
+  font-size: .67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgba(255,199,143,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,199,143,1) 0%, rgba(253,164,76,1) 47%, rgba(250,125,0,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,199,143,1)), color-stop(47%, rgba(253,164,76,1)), color-stop(100%, rgba(250,125,0,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,199,143,1) 0%, rgba(253,164,76,1) 47%, rgba(250,125,0,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,199,143,1) 0%, rgba(253,164,76,1) 47%, rgba(250,125,0,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,199,143,1) 0%, rgba(253,164,76,1) 47%, rgba(250,125,0,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,199,143,1) 0%, rgba(253,164,76,1) 47%, rgba(250,125,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc78f', endColorstr='#fa7d00', GradientType=1 );
+}
