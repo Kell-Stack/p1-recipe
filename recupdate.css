@@ -115,7 +115,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc78f', end
 
 /* Set black background color, white text and some padding */
 footer {
-    background-color: #555;
+    background: color #ffc78f;
     color: white;
     padding: 15px;
 }
