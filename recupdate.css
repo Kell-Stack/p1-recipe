@@ -84,16 +84,15 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 .row.content {
     height: 1500px;
     background: rgba(255,199,143,1);
@@ -105,39 +104,30 @@ background: -ms-radial-gradient(center, ellipse cover, rgba(255,199,143,1) 0%, r
 background: radial-gradient(ellipse at center, rgba(255,199,143,1) 0%, rgba(253,164,76,1) 47%, rgba(250,125,0,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc78f', endColorstr='#fa7d00', GradientType=1 );
 }
+
+.ml-1 {
+  margin-left: ($spacer * .25) !important;
 }
 
-/* Set gray background color and 100% height */
+
 .sidenav {
-    background-color: #f1f1f1;
+    background-color: #ac3838;
     height: 100%;
 }
 
-/* Set black background color, white text and some padding */
-footer {
-    background: color #ffc78f;
-    color: white;
-    padding: 15px;
-}
 
-/* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
-    .sidenav {
-    height: auto;
-    padding: 15px;
-    }
-    .row.content {height: auto;} 
-}
-
-h1 { 
+h1 {
     font-size: 7em;
     font-weight: bold;
-    color: #ec735e;
+    color: #db4914;
     font-family: verdana
 }
 
-body {
+p {
+    font-weight: bold}
+}
 
+body {
 background: rgba(255,199,143,1);
 background: -moz-radial-gradient(center, ellipse cover, rgba(255,199,143,1) 0%, rgba(253,164,76,1) 47%, rgba(250,125,0,1) 100%);
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,199,143,1)), color-stop(47%, rgba(253,164,76,1)), color-stop(100%, rgba(250,125,0,1)));
